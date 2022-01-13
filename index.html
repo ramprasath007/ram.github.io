@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>SUPERMAN vs BATMAN</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.background {
+			background: black;
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: grey;
+		}
+
+		.rightnav {
+			width: 30%;
+			text-align: right;
+		}
+
+		#search {
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid grey;
+			border-radius: 9px;
+		}
+
+		.firstsection {
+			background-color: red;
+			height: 400px;
+		}
+
+		.secondsection {
+			background-color: black;
+			height: 400px;
+		}
+
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: white;
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+		}
+
+		.firsthalf {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.secondhalf {
+			width: 30%;
+		}
+
+		.secondhalf img {
+			width: 70%;
+			border: 4px solid white;
+			border-radius: 150px;
+			display: block;
+			margin: auto;
+		}
+
+		.text-big {
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			font-size: 35px;
+		}
+
+		.text-small {
+			font-size: 18px;
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+		.section {
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 90%;
+			margin: auto;
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+		}
+
+		.center {
+			text-align: center;
+		}
+
+		.text-footer {
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: red;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				
+			</div>
+			<li><a href="#web">superman</a></li>
+			<li><a href="#program">Batman</a></li>
+			
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="web">SUPERMAN</h1>
+				<p class="text-small">
+					Superman was born on the fictional planet Krypton and was named Kal-El. As a baby, his parents sent him to Earth in a small spaceship moments before Krypton was destroyed in a natural cataclysm. His ship landed in the American countryside, near the fictional town of Smallville. He was found and adopted by farmers Jonathan and Martha Kent, who named him Clark Kent. Clark developed various superhuman abilities, such as incredible strength and impervious skin
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="program">
+					BATMAN
+				</h1>
+				<p class="text-small">
+					Batman is a superhero who appears in American comic books published by DC Comics. The character was created by artist Bob Kane and writer Bill Finger, and debuted in the 27th issue of the comic book Detective Comics on March 30, 1939. In the DC Universe continuity, Batman is the alias of Bruce Wayne, a wealthy American playboy, philanthropist, and industrialist who resides in Gotham City. Batman's origin story features him swearing vengeance against criminals after witnessing the murder of his parents Thomas and Martha, a vendetta tempered with the ideal of justice. 
+				</p>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="background">
+		<p class="text-footer">
+			*************
+		</p>
+
+
+	</footer>
+</body>
+
+</html>
