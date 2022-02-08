@@ -1,0 +1,21 @@
+<!DOCTYPE>
+<html>
+<body bgcolor="yellow">
+
+<form id="myForm" action="https://c.tenor.com/KczDDefNFZQAAAAC/hello-there-hi.gif" width='1200'>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" size="25" required><br>
+  <label for="email">Email id:</label><br>
+  <input type="email" id="email" name="email" size="25" required><br>
+  <label for="number">Contact Number:</label><br>
+  <input type="text" name="number"pattern="[1-9]{1}[0-9]{9}" maxlength="10" required ><br><br>
+  <input type="submit" onclick="hello()" value="Submit" class="button-primary">
+</form> 
+<script>  
+  function hello(){  
+  alert("Successfully logged in");  
+  }  
+</script> 
+
+</body>
+</html>
